@@ -1,0 +1,440 @@
+<html>
+<head>  
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ 
+  <link href="style.css" rel="stylesheet">
+
+  <script defer src="font/all.js"></script>
+
+  <title>Portal Course</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="flex items-center space-x-4">
+                <a class="logo" href="#">
+                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 325.000000 222.000000" preserveAspectRatio="xMidYMid meet">
+                        <g transform="translate(0.000000,222.000000) scale(0.100000,-0.100000)" fill="#0477BE" stroke="none">
+                        <path d="M675 2210 c-139 -28 -277 -126 -334 -239 -43 -83 -51 -143 -51 -371
+                                l0 -215 -141 -138 -142 -139 141 -141 142 -142 0 -204 c0 -226 9 -284 62 -384
+                                36 -66 126 -155 190 -185 55 -27 152 -52 198 -52 l36 0 60 133 60 132 -96 5
+                                c-126 8 -173 32 -213 109 l-27 55 0 239 c0 195 -3 245 -16 272 -12 26 -83 92
+                                -162 151 -12 9 1 24 71 83 47 39 89 79 93 89 5 9 11 137 14 283 l5 266 27 40
+                                c17 25 45 49 75 64 l48 24 564 3 c455 2 562 0 558 -10 -2 -7 -190 -438 -417
+                                -958 -227 -520 -414 -953 -417 -963 -5 -16 36 -17 769 -17 832 0 828 0 938 52
+                                59 29 161 131 193 194 48 95 57 155 57 375 l0 204 142 142 141 141 -142 139
+                                -141 138 0 215 c0 228 -8 288 -51 371 -63 125 -220 227 -375 244 l-59 7 -61
+                                -134 -61 -133 91 -6 c140 -8 203 -46 234 -138 8 -22 12 -118 12 -268 0 -175 3
+                                -242 14 -266 8 -20 47 -61 96 -102 68 -56 80 -70 68 -79 -79 -58 -150 -125
+                                -162 -151 -13 -27 -16 -77 -16 -272 l0 -239 -27 -55 c-21 -41 -39 -60 -73 -79
+                                l-45 -25 -569 -3 c-459 -2 -567 0 -563 10 3 7 190 438 417 958 227 520 415
+                                953 417 963 5 16 -36 17 -763 16 -423 -1 -787 -5 -809 -9z"></path>
+                        </g>
+                    </svg>  
+                </a>
+                <div class="relative">
+                    <input type="text" class="nav-input" name="" value="" placeholder="Suchen">
+                    <div class="absolute top-0 right-0 flex items-center h-full">
+                    <div class="border border-gray-600 rounded text-xs text-gray-400 px-2 mr-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="" width="12" height="13">
+                        <g stroke-width="2" stroke="#6c6c6c" fill="none">
+                            <path d="M11.29 11.71l-4-4"></path>
+                            <circle cx="5" cy="5" r="4"></circle>
+                        </g>
+                        </svg>
+                    </div>
+                    </div>
+                </div>
+                
+                <div class="hidden lg:block">
+                    <ul class="inline-flex">
+                    <li><a class="px-4 font-bold" href="/">TEST</a></li>
+                    <li><a class="px-4 hover:text-gray-800" href="#">TEST</a></li>
+                    <li><a class="px-4 hover:text-gray-800" href="#">TEST</a></li>
+                    <li><a class="px-4 hover:text-gray-800" href="#">TEST</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="flex items-center space-x-4 text-white p-0.5">
+                <a href="#" class="relative"><svg class="text-white h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path>
+                </svg></a>
+            </div>
+            
+            <div class="block lg:hidden text-white">
+                <button class="toggle-btn hover:text-gray-800 hover:border-teal-500 focus:outline-none">
+                <svg class="fill-current h-3 w-3 text-white" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <title>Menu</title>
+                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                </svg>
+                </button>
+            </div>
+        </nav>
+        <div id="nav-toggle" class="nav-toggle">        
+            <a href="#" class="menu-item border">Test</a>
+            <a href="#" class="menu-item border">Test</a>
+            <a href="#" class="menu-item border">Test</a>
+            <a href="#" class="menu-item border">Test</a>
+        </div>
+    </header>
+
+    <div class="video-main">
+        <div class="relative" style="padding-top: 56.25%">
+            <iframe class="absolute inset-0 w-full h-full" src="https://player.vimeo.com/video/484336651" frameborder="0" …></iframe>
+        </div>        
+    </div>
+
+    <div class="body-main container">
+        <div class="btn-part">
+            <button class="btn btn-blue">
+                Button Previous
+            </button>
+            <button class="btn btn-blue">
+                Button Next
+            </button>
+        </div>       
+
+        <div class="w-full lg:flex">
+            <div class="block w-full lg:w-3/4">
+                <div class="course-block">
+                    <div class="teacher-block common-block">
+                        <div class="upper md:flex">
+                            <div class="title">
+                                <span class="bold-txt">YOUR TEACHER</span>
+                                <span>|</span>
+                                <span>ANDRE MADARANG</span>
+                            </div>
+                            <div class="social">
+                                <a href="" class="link-social"><i class="fab fa-twitter-square fa-2x"></i></a>
+                                <a href="" class="link-social"><i class="fab fa-github-square fa-2x"></i></a>
+                                <button class="visit small-txt border">VISIT WEBSITE</button>
+                            </div>
+                        </div>
+                        <div class="bottom flex">
+                            <div class="img">
+                                <img src="img/man.jpg" alt="teacher">
+                            </div>
+                            
+                            <div class="txt">
+                                Greetings! I'm Andre, a full-stack web developer and Laracasts instructor. My other hobbies include playing guitar, videography and gaming.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="episode-block common-block">
+                        <div class="up-txt bold-txt">ABOUT THIS EPISODE</div>
+                        <div class="low-txt bold-txt small-txt">Publish on Jan 6th, 2021</div>
+                    </div>
+                    <div class="comment">
+                        Laravel Jetstream is beautifully designed application scaffolding too that provides a great starting point your new applications. It's built with Tailwind CSS, Alpinejs and Blade Components and includes features like login, registration, profile management, two-factor auth, session management, API tokens, and teams.
+                    </div>
+
+                </div>
+                <div class="discussion-block">
+                    <div class="common-block bold-txt">
+                        DISCUSS IT
+                    </div>
+                    <div class="msg-a msg">
+                        <div class="img">
+                            <img src="img/man.jpg" alt="">
+                        </div>                        
+                        <div class="txt">
+                            <div class="up">
+                                <div class="title">
+                                    <div class="name bold-txt">
+                                        lemmon
+                                    </div>
+                                    <div class="time xs-txt">
+                                        Posted 3 weeks ago
+                                    </div>
+                                </div>
+                                <div>
+                                    <i class="fab fa-facebook-messenger"></i>
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                Greetings! I'm Andre, a full-stack web developer and Laracasts instructor. My other hobbies include playing guitar, videography and gaming.
+                            </div>   
+                            <div class="fav-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>                         
+                        </div>                        
+                    </div>
+                    <div class="msg-a msg">
+                        <div class="img">
+                            <img src="img/man.jpg" alt="">
+                        </div>                        
+                        <div class="txt">
+                            <div class="up">
+                                <div class="title">
+                                    <div class="name bold-txt">
+                                        lemmon
+                                    </div>
+                                    <div class="time xs-txt">
+                                        Posted 3 weeks ago
+                                    </div>
+                                </div>
+                                <div>
+                                    <i class="fab fa-facebook-messenger"></i>
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                Greetings! I'm Andre, a full-stack web developer and Laracasts instructor. My other hobbies include playing guitar, videography and gaming.
+                            </div>   
+                            <div class="fav-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>                         
+                        </div>         
+                    </div>
+                    <div class="msg-b msg">
+                        <div class="img">
+                            <img src="img/woman.jpg" alt="">
+                        </div>                        
+                        <div class="txt">
+                            <div class="up">
+                                <div class="title">
+                                    <div class="name bold-txt">
+                                        lemmon
+                                    </div>
+                                    <div class="time xs-txt">
+                                        Posted 3 weeks ago
+                                    </div>
+                                </div>
+                                <div>
+                                    <i class="fab fa-facebook-messenger"></i>
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                Greetings! I'm Andre, a full-stack web developer and Laracasts instructor. My other hobbies include playing guitar, videography and gaming.
+                            </div>   
+                            <div class="fav-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>                         
+                        </div>         
+                    </div>
+                </div>
+            </div>
+            <div class="block w-full lg:w-1/4">
+                <div class="sidebar border">
+                    <div class="title">
+                        <div class="img">
+                            <img src="img/sidebar.png" alt="">
+                        </div>
+                        <div class="txt">
+                            <div class="subject bold-txt">
+                                Laravel Authentication (Breeze, Jetstream, Fortify)
+                            </div>
+                            <div class="data">
+                                <span class="xs-txt">SERIES</span>
+                                <span class="xs-txt">SERIES</span>
+                                <span class="xs-txt">SERIES</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-group">
+                        <div class="title bold-txt">
+                            Section1 | Laravel Breeze
+                            <i class="fas fa-sort-down"></i>
+                        </div>
+                        <div class="section-items">
+                            <div class="section-item">
+                                <div class="img">
+                                    <img src="img/sidebar-check.jpg" alt="">
+                                </div>
+                                <div class="txt">
+                                    <div class="subject">
+                                        Jetstream Installation and Features
+                                    </div>
+                                    <div class="data">
+                                        <i class="fas fa-clock"></i>
+                                        <span class="xs-txt">10:51</span>
+                                        <a href="">
+                                            <i class="fab fa-github-square"></i>
+                                            <span class="xs-txt">View Source</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="section-item">
+                                <div class="num">
+                                    01
+                                </div>
+                                <div class="txt">
+                                    <div class="subject">
+                                        Customize Views
+                                    </div>
+                                    <div class="data">
+                                        <i class="fas fa-clock"></i>
+                                        <span class="xs-txt">10:51</span>
+                                        <a href="">
+                                            <i class="fab fa-github-square"></i>
+                                            <span class="xs-txt">View Source</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="section-item">
+                                <div class="num">
+                                    02
+                                </div>
+                                <div class="txt">
+                                    <div class="subject">
+                                        Customize Views
+                                    </div>
+                                    <div class="data">
+                                        <i class="fas fa-clock"></i>
+                                        <span class="xs-txt">10:51</span>
+                                        <a href="">
+                                            <i class="fab fa-github-square"></i>
+                                            <span class="xs-txt">View Source</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="section-item">
+                                <div class="num">
+                                    03
+                                </div>
+                                <div class="txt">
+                                    <div class="subject">
+                                        Customize Views
+                                    </div>
+                                    <div class="data">
+                                        <i class="fas fa-clock"></i>
+                                        <span class="xs-txt">10:51</span>
+                                        <a href="">
+                                            <i class="fab fa-github-square"></i>
+                                            <span class="xs-txt">View Source</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="section-item">
+                                <div class="num">
+                                    04
+                                </div>
+                                <div class="txt">
+                                    <div class="subject">
+                                        Customize Views
+                                    </div>
+                                    <div class="data">
+                                        <i class="fas fa-clock"></i>
+                                        <span class="xs-txt">10:51</span>
+                                        <a href="">
+                                            <i class="fab fa-github-square"></i>
+                                            <span class="xs-txt">View Source</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
+
+                    <div class="section-group">
+                        <div class="title bold-txt">
+                            Section2 | Laravel Fortify
+                            <i class="fas fa-sort-down"></i>
+                        </div>
+                        <div class="section-items">
+                            <div class="section-item">
+                                <div class="img">
+                                    <img src="img/sidebar-check.jpg" alt="">
+                                </div>
+                                <div class="txt">
+                                    <div class="subject">
+                                        Jetstream Installation and Features
+                                    </div>
+                                    <div class="data">
+                                        <i class="fas fa-clock"></i>
+                                        <span class="xs-txt">10:51</span>
+                                        <a href="">
+                                            <i class="fab fa-github-square"></i>
+                                            <span class="xs-txt">View Source</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="section-item">
+                                <div class="num">
+                                    05
+                                </div>
+                                <div class="txt">
+                                    <div class="subject">
+                                        Customize Views
+                                    </div>
+                                    <div class="data">
+                                        <i class="fas fa-clock"></i>
+                                        <span class="xs-txt">10:51</span>
+                                        <a href="">
+                                            <i class="fab fa-github-square"></i>
+                                            <span class="xs-txt">View Source</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="section-item">
+                                <div class="num">
+                                    06
+                                </div>
+                                <div class="txt">
+                                    <div class="subject">
+                                        Customize Views
+                                    </div>
+                                    <div class="data">
+                                        <i class="fas fa-clock"></i>
+                                        <span class="xs-txt">10:51</span>
+                                        <a href="">
+                                            <i class="fab fa-github-square"></i>
+                                            <span class="xs-txt">View Source</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="section-item">
+                                <div class="num">
+                                    07
+                                </div>
+                                <div class="txt">
+                                    <div class="subject">
+                                        Customize Views
+                                    </div>
+                                    <div class="data">
+                                        <i class="fas fa-clock"></i>
+                                        <span class="xs-txt">10:51</span>
+                                        <a href="">
+                                            <i class="fab fa-github-square"></i>
+                                            <span class="xs-txt">View Source</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="section-item">
+                                <div class="num">
+                                    08
+                                </div>
+                                <div class="txt">
+                                    <div class="subject">
+                                        Customize Views
+                                    </div>
+                                    <div class="data">
+                                        <i class="fas fa-clock"></i>
+                                        <span class="xs-txt">10:51</span>
+                                        <a href="">
+                                            <i class="fab fa-github-square"></i>
+                                            <span class="xs-txt">View Source</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

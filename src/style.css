@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button:focus{
+    @apply outline-none;
+}
+input:focus{
+    @apply outline-none;
+}
+.container{
+    @apply m-auto ;
+}
+.nav-bar{
+    @apply bg-gray-800 text-white px-4 py-3 flex items-center justify-between;
+}
+.nav-input{
+    @apply bg-gray-700 sm:w-auto md:w-80 lg:w-80 text-sm placeholder-white h-7 px-3 py-1 rounded;
+}
+.toggle-btn{
+    @apply flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 appearance-none;
+}
+.nav-toggle{
+    @apply hidden;
+}
+.nav-toggle.active{
+    @apply inline-block p-0 w-full absolute z-10 bg-blue-300;
+}
+.nav-toggle .menu-item{
+    @apply block p-2;
+}
+.btn{    
+    @apply font-bold h-10 px-5 m-2 text-indigo-100 transition-colors duration-150 rounded;
+}
+.btn-blue{
+    @apply bg-indigo-700 text-white md:w-64 lg:w-64 sm:w-48 w-48;
+}
+.btn-blue:hover{
+    @apply bg-indigo-800;
+}
+.btn-part{
+    @apply relative flex justify-around md:py-6 sm:py-4 py-2;
+}
+.block{
+    @apply p-5;
+}
+.common-block{
+    @apply rounded-lg p-5 bg-gray-200 my-4;
+}
+.bold-txt{
+    @apply font-bold;
+}
+.small-txt{
+    @apply text-sm;
+}
+.xs-txt{
+    @apply text-xs;
+}
+.teacher-block .title span{
+    @apply sm:px-2;
+}
+.teacher-block .bottom{
+    @apply py-8;
+}
+.teacher-block .img{
+    @apply w-2/12 md:p-4;
+}
+.teacher-block .bottom img{
+    @apply w-full rounded-full;
+}
+.teacher-block .txt{
+    @apply w-10/12 md:px-8 px-4 self-center;
+}
+.teacher-block .upper{
+    @apply justify-between;
+}
+.teacher-block .upper .title{
+    @apply py-2;
+}
+.teacher-block .upper .social{
+    @apply flex;
+}
+.link-social{
+    @apply pr-4;
+}
+
+.teacher-block .upper .social .visit{
+    @apply rounded-full py-1 px-4 border-gray-600;
+}
+.teacher-block .upper .social .visit:hover{
+    @apply bg-gray-500 text-white;
+}
+.episode-block{
+    @apply flex justify-between;
+}
+.comment{
+    @apply md:px-14 px-5 pt-5 pb-8;
+}
+.msg{
+    @apply sm:p-8 flex;
+}
+.msg .img{
+    @apply w-2/12 md:p-4;
+}
+.msg .img img{
+    @apply w-full rounded-md;
+}
+.msg .txt{
+    @apply w-10/12 md:px-8 px-4 self-center;
+}
+.msg .txt .up{
+    @apply flex justify-between;
+}
+.msg .txt .bottom{
+    @apply py-3;
+}
+.msg .txt .fav-icon{
+    @apply p-3;
+}
+.msg-b{
+    @apply sm:pl-40 pl-10;
+}
+.sidebar{
+    @apply p-4 rounded-lg border-gray-400 my-4;
+}
+.sidebar .title{
+    @apply flex py-4 px-4;
+}
+.sidebar .title:hover{
+    @apply cursor-pointer;
+} 
+.sidebar img{
+    @apply w-8 rounded-full max-w-none;
+}
+.sidebar .txt{
+    @apply self-center pl-3;
+}
+.sidebar .section-group{
+    @apply py-3;
+}
+.sidebar .section-group .title{
+    @apply sm:px-5 justify-between bg-gray-200 rounded-lg;
+}
+.sidebar .section-items{
+    @apply hidden;
+}
+.sidebar .section-items.active{
+    @apply block;
+}
+.sidebar .section-item{
+    @apply flex py-3;
+}
+.sidebar .section-item .num{
+    @apply w-8 h-8 max-w-none border-gray-400 rounded-full bg-gray-200 text-center py-0.5;
+}
+.sidebar .data span{
+    @apply pr-2;
+}
