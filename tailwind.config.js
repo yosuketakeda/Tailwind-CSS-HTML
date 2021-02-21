@@ -2,7 +2,11 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      width:{
+        'sideW':'340px',
+      }
+    },
     screens: {      
       'sm': '640px',
       // => @media (min-width: 640px) { ... }

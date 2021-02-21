@@ -24,10 +24,10 @@ input:focus{
     @apply hidden;
 }
 .nav-toggle.active{
-    @apply inline-block p-0 w-full absolute z-10 bg-blue-300;
+    @apply inline-block p-0 w-full absolute z-10 bg-gray-600;
 }
 .nav-toggle .menu-item{
-    @apply block p-2;
+    @apply block p-1 text-white border-gray-300;
 }
 .btn{    
     @apply font-bold h-10 px-5 m-2 text-indigo-100 transition-colors duration-150 rounded;
@@ -121,7 +121,7 @@ input:focus{
     @apply sm:pl-40 pl-10;
 }
 .sidebar{
-    @apply p-4 rounded-lg border-gray-400 my-4;
+    @apply p-4 rounded-lg border-gray-400 my-4;    
 }
 .sidebar .title{
     @apply flex py-4 px-4;
